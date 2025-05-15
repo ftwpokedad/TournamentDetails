@@ -6,17 +6,47 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AA6685C52DD535B0009E1B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6685C02DD535B0009E1B7C /* Assets.xcassets */; };
+		AA6685C62DD535B0009E1B7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685C12DD535B0009E1B7C /* ContentView.swift */; };
+		AA6685C72DD535B0009E1B7C /* TournamentDetailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685C22DD535B0009E1B7C /* TournamentDetailsApp.swift */; };
+		AA6685C82DD535B0009E1B7C /* VgGoSingleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685C32DD535B0009E1B7C /* VgGoSingleDay.swift */; };
+		AA6685CB2DD535EF009E1B7C /* TcgSwissOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685CA2DD535EF009E1B7C /* TcgSwissOnly.swift */; };
+		AA6685CD2DD5360C009E1B7C /* TcgSingleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685CC2DD5360C009E1B7C /* TcgSingleDay.swift */; };
+		AA6685CF2DD53683009E1B7C /* ChampionshipSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685CE2DD53683009E1B7C /* ChampionshipSeries.swift */; };
+		AA6685D12DD5393B009E1B7C /* InfoPanelChampionshipSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685D02DD5393B009E1B7C /* InfoPanelChampionshipSeries.swift */; };
+		AA6685D42DD5401F009E1B7C /* TourInfoChampionshipSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685D32DD5401F009E1B7C /* TourInfoChampionshipSeries.swift */; };
+		AA6685D72DD55A53009E1B7C /* InfoPanelVgGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685D62DD55A53009E1B7C /* InfoPanelVgGo.swift */; };
+		AA6685D92DD55C5F009E1B7C /* TourInfoVgGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685D82DD55C5F009E1B7C /* TourInfoVgGo.swift */; };
+		AA6685DC2DD56177009E1B7C /* InfoPanelAllTournaments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685DB2DD56177009E1B7C /* InfoPanelAllTournaments.swift */; };
+		AA6685DF2DD5639B009E1B7C /* InfoPanelTcgSingleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685DE2DD5639B009E1B7C /* InfoPanelTcgSingleDay.swift */; };
+		AA6685E12DD563AE009E1B7C /* TourInfoTcgSingleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685E02DD563AE009E1B7C /* TourInfoTcgSingleDay.swift */; };
+		AA6685E62DD5661F009E1B7C /* InfoPanelTcgSwissOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685E52DD5661F009E1B7C /* InfoPanelTcgSwissOnly.swift */; };
+		AA6685EA2DD5666C009E1B7C /* TourInfoTcgSwissOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6685E92DD5666C009E1B7C /* TourInfoTcgSwissOnly.swift */; };
+		AAB016102DD662D400692812 /* Phase2DataChampionshipSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0160F2DD662D400692812 /* Phase2DataChampionshipSeries.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AA6685922DD534D9009E1B7C /* TournamentDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TournamentDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6685C02DD535B0009E1B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6685C12DD535B0009E1B7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA6685C22DD535B0009E1B7C /* TournamentDetailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDetailsApp.swift; sourceTree = "<group>"; };
+		AA6685C32DD535B0009E1B7C /* VgGoSingleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VgGoSingleDay.swift; sourceTree = "<group>"; };
+		AA6685CA2DD535EF009E1B7C /* TcgSwissOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcgSwissOnly.swift; sourceTree = "<group>"; };
+		AA6685CC2DD5360C009E1B7C /* TcgSingleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcgSingleDay.swift; sourceTree = "<group>"; };
+		AA6685CE2DD53683009E1B7C /* ChampionshipSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionshipSeries.swift; sourceTree = "<group>"; };
+		AA6685D02DD5393B009E1B7C /* InfoPanelChampionshipSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelChampionshipSeries.swift; sourceTree = "<group>"; };
+		AA6685D32DD5401F009E1B7C /* TourInfoChampionshipSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoChampionshipSeries.swift; sourceTree = "<group>"; };
+		AA6685D62DD55A53009E1B7C /* InfoPanelVgGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelVgGo.swift; sourceTree = "<group>"; };
+		AA6685D82DD55C5F009E1B7C /* TourInfoVgGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoVgGo.swift; sourceTree = "<group>"; };
+		AA6685DB2DD56177009E1B7C /* InfoPanelAllTournaments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelAllTournaments.swift; sourceTree = "<group>"; };
+		AA6685DE2DD5639B009E1B7C /* InfoPanelTcgSingleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelTcgSingleDay.swift; sourceTree = "<group>"; };
+		AA6685E02DD563AE009E1B7C /* TourInfoTcgSingleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoTcgSingleDay.swift; sourceTree = "<group>"; };
+		AA6685E52DD5661F009E1B7C /* InfoPanelTcgSwissOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelTcgSwissOnly.swift; sourceTree = "<group>"; };
+		AA6685E92DD5666C009E1B7C /* TourInfoTcgSwissOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoTcgSwissOnly.swift; sourceTree = "<group>"; };
+		AA6685EB2DD57101009E1B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAB0160F2DD662D400692812 /* Phase2DataChampionshipSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase2DataChampionshipSeries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AA6685942DD534D9009E1B7C /* TournamentDetails */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TournamentDetails;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA66858F2DD534D9009E1B7C /* Frameworks */ = {
@@ -32,7 +62,10 @@
 		AA6685892DD534D9009E1B7C = {
 			isa = PBXGroup;
 			children = (
-				AA6685942DD534D9009E1B7C /* TournamentDetails */,
+				AA6685C42DD535B0009E1B7C /* TournamentDetails */,
+				AA6685C22DD535B0009E1B7C /* TournamentDetailsApp.swift */,
+				AA6685C12DD535B0009E1B7C /* ContentView.swift */,
+				AA6685C02DD535B0009E1B7C /* Assets.xcassets */,
 				AA6685932DD534D9009E1B7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +76,76 @@
 				AA6685922DD534D9009E1B7C /* TournamentDetails.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6685C42DD535B0009E1B7C /* TournamentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685EB2DD57101009E1B7C /* Info.plist */,
+				AA6685DA2DD56142009E1B7C /* Combined */,
+				AA6685E42DD565F5009E1B7C /* TCGSwissOnly */,
+				AA6685DD2DD56350009E1B7C /* TcgSingleDay */,
+				AA6685D22DD53944009E1B7C /* ChampionshipSeries */,
+				AA6685D52DD55A1A009E1B7C /* VgAndGo */,
+				AA6685C92DD535BE009E1B7C /* VariantCalculators */,
+			);
+			path = TournamentDetails;
+			sourceTree = "<group>";
+		};
+		AA6685C92DD535BE009E1B7C /* VariantCalculators */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685C32DD535B0009E1B7C /* VgGoSingleDay.swift */,
+				AA6685CE2DD53683009E1B7C /* ChampionshipSeries.swift */,
+				AA6685CA2DD535EF009E1B7C /* TcgSwissOnly.swift */,
+				AA6685CC2DD5360C009E1B7C /* TcgSingleDay.swift */,
+			);
+			path = VariantCalculators;
+			sourceTree = "<group>";
+		};
+		AA6685D22DD53944009E1B7C /* ChampionshipSeries */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685D02DD5393B009E1B7C /* InfoPanelChampionshipSeries.swift */,
+				AA6685D32DD5401F009E1B7C /* TourInfoChampionshipSeries.swift */,
+				AAB0160F2DD662D400692812 /* Phase2DataChampionshipSeries.swift */,
+			);
+			path = ChampionshipSeries;
+			sourceTree = "<group>";
+		};
+		AA6685D52DD55A1A009E1B7C /* VgAndGo */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685D62DD55A53009E1B7C /* InfoPanelVgGo.swift */,
+				AA6685D82DD55C5F009E1B7C /* TourInfoVgGo.swift */,
+			);
+			path = VgAndGo;
+			sourceTree = "<group>";
+		};
+		AA6685DA2DD56142009E1B7C /* Combined */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685DB2DD56177009E1B7C /* InfoPanelAllTournaments.swift */,
+			);
+			path = Combined;
+			sourceTree = "<group>";
+		};
+		AA6685DD2DD56350009E1B7C /* TcgSingleDay */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685DE2DD5639B009E1B7C /* InfoPanelTcgSingleDay.swift */,
+				AA6685E02DD563AE009E1B7C /* TourInfoTcgSingleDay.swift */,
+			);
+			path = TcgSingleDay;
+			sourceTree = "<group>";
+		};
+		AA6685E42DD565F5009E1B7C /* TCGSwissOnly */ = {
+			isa = PBXGroup;
+			children = (
+				AA6685E52DD5661F009E1B7C /* InfoPanelTcgSwissOnly.swift */,
+				AA6685E92DD5666C009E1B7C /* TourInfoTcgSwissOnly.swift */,
+			);
+			path = TCGSwissOnly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +162,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AA6685942DD534D9009E1B7C /* TournamentDetails */,
 			);
 			name = TournamentDetails;
 			packageProductDependencies = (
@@ -109,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6685C52DD535B0009E1B7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +220,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6685D72DD55A53009E1B7C /* InfoPanelVgGo.swift in Sources */,
+				AA6685C62DD535B0009E1B7C /* ContentView.swift in Sources */,
+				AA6685CF2DD53683009E1B7C /* ChampionshipSeries.swift in Sources */,
+				AA6685C72DD535B0009E1B7C /* TournamentDetailsApp.swift in Sources */,
+				AA6685CB2DD535EF009E1B7C /* TcgSwissOnly.swift in Sources */,
+				AAB016102DD662D400692812 /* Phase2DataChampionshipSeries.swift in Sources */,
+				AA6685E62DD5661F009E1B7C /* InfoPanelTcgSwissOnly.swift in Sources */,
+				AA6685D12DD5393B009E1B7C /* InfoPanelChampionshipSeries.swift in Sources */,
+				AA6685E12DD563AE009E1B7C /* TourInfoTcgSingleDay.swift in Sources */,
+				AA6685C82DD535B0009E1B7C /* VgGoSingleDay.swift in Sources */,
+				AA6685EA2DD5666C009E1B7C /* TourInfoTcgSwissOnly.swift in Sources */,
+				AA6685D42DD5401F009E1B7C /* TourInfoChampionshipSeries.swift in Sources */,
+				AA6685DF2DD5639B009E1B7C /* InfoPanelTcgSingleDay.swift in Sources */,
+				AA6685D92DD55C5F009E1B7C /* TourInfoVgGo.swift in Sources */,
+				AA6685CD2DD5360C009E1B7C /* TcgSingleDay.swift in Sources */,
+				AA6685DC2DD56177009E1B7C /* InfoPanelAllTournaments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +373,10 @@
 				DEVELOPMENT_TEAM = 3H9LSZU9FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TournamentDetails/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tournament Details";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,9 +402,10 @@
 				DEVELOPMENT_TEAM = 3H9LSZU9FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TournamentDetails/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tournament Details";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
